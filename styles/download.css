@@ -1,0 +1,36 @@
+#found-download {
+  background-color: black;
+  padding: 80px 32px;
+}
+#download {
+  background-color: var(--surface-color);
+  padding: 32px;
+  border-radius: 20px;
+  height: 542px;
+}
+.download-img-guy {
+  position: relative;
+  img {
+    position: absolute;
+    height: 700px !important;
+    top: -363px;
+  }
+}
+@media (max-width: 992px) {
+  #found-download,
+  #planos {
+    padding: 16px 24px;
+  }
+  #download {
+    height: auto;
+  }
+  .buttons-download {
+    span {
+      display: block;
+      margin: 20px 0px;
+    }
+  }
+  .download-img-guy {
+    display: none;
+  }
+}

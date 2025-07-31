@@ -1,0 +1,73 @@
+#home {
+  background-color: var(--background-color);
+  header {
+    padding: 24px 32px;
+  }
+}
+.items-menu {
+  gap: 24px;
+  a {
+    color: var(--text-color-secondary);
+    font-size: var(--font-paragraph-size);
+    font-family: var(--font-family-base);
+    text-decoration: none;
+  }
+}
+.button-baixar-agora {
+  border: none;
+  background-color: var(--text-color-primary);
+  height: 56px;
+  width: 144px;
+  border-radius: 20px;
+  font-size: var(--font-paragraph-size);
+  color: var(--background-color);
+  font-weight: var(--font-span-weight);
+}
+.buttons-group {
+  padding-top: 42px;
+  padding-bottom: 99px;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+}
+.buttons-planos {
+  height: 56px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid var(--text-color-primary);
+  color: var(--text-color-primary);
+  width: 155px;
+}
+.contents {
+  justify-content: center;
+  padding: 80px 32px;
+}
+.content-home-block {
+  text-align: center;
+  img {
+    padding-bottom: 24px;
+  }
+  span {
+    color: var(--text-color-secondary);
+    font-size: var(--font-h1-mobile-size);
+    padding-bottom: 48px;
+  }
+  h1 {
+    font-size: var(--font-h1-desktop-size);
+    color: var(--text-color-primary);
+    font-weight: var(--font-h1-desktop-weight);
+    padding-bottom: 16px;
+  }
+}
+@media (max-width: 992px) {
+  .content-home-block {
+    img {
+      width: 100% !important;
+    }
+    .titles {
+      h1 {
+        font-size: var(--font-h1-mobile-size);
+      }
+    }
+  }
+}

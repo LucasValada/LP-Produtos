@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  /* Cores - Produto */
+  --brand-gradient: linear-gradient(90deg, #fc4a1a 0%, #f7b733 100%);
+  --brand-color-primary: #f7b733;
+  --brand-color-secondary: #fc4a1a;
+
+  /* Cores - Base */
+  --background-color: #09090b;
+  --surface-color: #18181b;
+  --stroke-color: #27272a;
+  --text-color-secondary: #a1a1aa;
+  --text-color-primary: #f4f4f5;
+
+  /* Tipografia */
+  --font-family-base: "Inter", sans-serif;
+
+  /* Tipografia - Desktop */
+  --font-h1-desktop-size: 64px;
+  --font-h2-desktop-size: 48px;
+  --font-h3-desktop-size: 32px;
+  --font-span-size: 14px;
+  --font-paragraph-size: 16px;
+
+  --font-h1-desktop-line-height: 120%;
+  --font-h2-desktop-line-height: 120%;
+  --font-h3-desktop-line-height: 120%;
+  --font-span-line-height: 100%;
+  --font-paragraph-line-height: 160%;
+
+  --font-h1-desktop-weight: 800; /* ExtraBold */
+  --font-h2-desktop-weight: 800;
+  --font-h3-desktop-weight: 800;
+  --font-span-weight: 500; /* Medium */
+  --font-paragraph-weight: 400; /* Regular */
+
+  /* Tipografia - Mobile */
+  --font-h1-mobile-size: 40px;
+  --font-h2-mobile-size: 24px;
+  --font-h3-mobile-size: 20px;
+
+  --font-h1-mobile-line-height: 120%;
+  --font-h2-mobile-line-height: 120%;
+  --font-h3-mobile-line-height: 120%;
+}
+
+@media (max-width: 1200px) {
+  .img-mobile,
+  .img-mobile-left,
+  .wave-bg,
+  .items-menu a {
+    display: none !important;
+  }
+  .row-reverse-mobile {
+    flex-direction: column-reverse;
+  }
+
+  .found-mobile {
+    justify-content: center !important;
+    img {
+      max-width: 100%;
+      height: 320px;
+      object-fit: contain;
+      width: 312px;
+      position: relative;
+      top: -300px;
+      margin-bottom: -350px;
+    }
+  }
+}
