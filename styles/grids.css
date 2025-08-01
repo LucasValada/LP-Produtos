@@ -126,19 +126,4 @@
     }
   }
 }
-@media (max-width: 1200px) {
-  .grid-cards-wrapper {
-    padding: 42px;
-  }
-  .gradient-border {
-    width: 100%;
-  }
-  .cards-bg {
-    width: 100% !important;
-    height: auto !important;
-    min-height: 100px;
-    h2 {
-      font-size: var(--font-h3-mobile-size);
-    }
-  }
-}
+
